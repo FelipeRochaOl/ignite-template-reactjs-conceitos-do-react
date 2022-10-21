@@ -39,6 +39,10 @@ section.task-list {
         &::placeholder {
           color: var(--text-light)
         }
+
+        &.error {
+          border: 0.1px solid red;
+        }
       }
 
       button {
